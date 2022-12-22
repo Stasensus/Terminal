@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+</head>
+<body>
+
+<h1>Вход в личный кабинет</h1>
+
+<form action="/action_page.php">
+ <center>
+ <fieldset>
+  <legend>Введите данные:</legend>
+  <label for="project">Проект:</label>
+  <input list="projects" name="project" id="project">
+    <datalist id="projects">
+      <option value="Mantera">
+      <option value="Красная поляна">
+      <option value="Санаторий Знание">
+      <option value="Морпорт">
+      <option value="Аэропорт">
+    </datalist>
+  <br><br>
+  <label for="login">Логин:</label>
+  <input type="text" id="login" name="login"><br><br>
+  <label for="password">Пароль:</label>
+  <input type="password" id="password" name="password"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+ </center>
+</form>
+
+</body>
+</html>
